@@ -38,6 +38,7 @@
   padding: 0 4px;
   color: #fff;
   font-size: 14px;
+  text-align:right;
 }
 
 .navbar-link:hover,
@@ -408,6 +409,19 @@ font-size:25px;
   }
 
 @media (max-width: 768px) {
+.navbar-link {
+  text-decoration: none;
+  padding: 0 4px;
+  color: #fff;
+  font-size: 14px;
+}
+  .nav-brand .navbar-brand {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+}
+
+  
   .gallery-item {
     flex: 1 1 calc(50% - 20px); 
   }
