@@ -6,6 +6,25 @@
   list-style: none;
   font-family: Arial, sans-serif;
 }
+p{
+  font-size:24px;
+}
+h1{
+  font-size:50px;
+}
+
+h2{
+  font-size:35px;
+}
+h4{
+  font-size:25px;
+}
+  h6{
+  font-size:20px;
+  }
+
+
+
 
 .navbar {
   background-color:  #1B1212;
@@ -17,10 +36,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin:auto;
 }
 
 .nav-brand .navbar-brand {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: bold;
   color: #fff;
 }
@@ -30,7 +50,7 @@
 
 .navbar-menu {
   display: flex;
-  padding-top: 14px;
+  padding-top: 26px;
 }
 
 .navbar-link {
@@ -57,15 +77,12 @@ flex-direction:column;
   
 
 .hero-tittle{
-font-size: 50px;
 font-weight:bold;
   }
   .hero-subtittle{
-    font-size:27px;
-
+  
     }
 .texthero{
-font-size:24px;
 font-weight: 300;
 
   }
@@ -91,16 +108,15 @@ button{
   width: 100%;
   }
 .about-text{
-  font-size:24px;
+  
   }
 .about h2{
-font-size:35px;
 
 }
   
   .title{
     font-weight:bold;
-  font-size:35px;
+  
   text-transform :capitalize
   }
 
@@ -109,7 +125,7 @@ background-color:lightgray;
 
   }
 .stem-header{
-  font-size:24px;
+  
   }
 .slide-img{
 
@@ -134,7 +150,7 @@ padding-left:15px;
 padding:6px 10px;
   }
   .titlepara{
-  font-size:18px;
+  
   }
 
 .rating{
@@ -152,13 +168,13 @@ padding-left:17px;
 
   } 
 .offer-tittle{
-  font-size:40px;
+  
 }
 .suboffer-title{
 font-size:27px;
   }
 .offer-para{
-  font-size:24px;
+  
   }
 
 .offer-timer{
@@ -166,7 +182,7 @@ font-size:27px;
   color: #FFD700;
 }
 .offer-time{
-  font-size:25px;
+  font-size:20px;
   
   
   }
@@ -179,12 +195,12 @@ font-size:27px;
 .offer-section{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image1.jpg');
   width: 100%;
-  height:70vh;
+  height:90vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #fff;
-  padding: 10% 0px;
+  padding: 15% 0px;
   margin-bottom: 40px;
   
   }
@@ -240,7 +256,7 @@ background-color: lightgray;
   color: #000; 
   border-radius: 5px; 
   border:1px solid grey;
-  font-size:26px;
+  font-size:30px;
 }
 
 .gallery-btn:hover {
@@ -268,10 +284,10 @@ background-color: #FFA500;
 
   }
 .header-review{
-font-size:35px;
+
 }
 .subheader-review{
-font-size:24px;
+
 
   }
 .review-content{
@@ -294,7 +310,7 @@ background-color: #1B1212;
   color: #fff;
   padding:30px;
 margin-bottom:0px;
-font-size:27px;
+
   }
 
 .product-section{
@@ -429,106 +445,29 @@ font-size:25px;
   .review-item, .product-item {
     flex: 1 1 calc(100% ); 
   }
-.hero-tittle{
-font-size: 33px;
+  .navbar-brand{
+    font-size:14px;
+    
   }
-  .hero-subtittle{
-    font-size:17px;
-    }
-.texthero{
-font-size:15px;
-}
-.about-text{
-  font-size:14px;
-  }
-.about h2{
+.navbar-link{
 font-size:26px;
 }
+p{
+  font-size:14px;
+}
+h1{
+  font-size:30px;
+}
+
+h2, .gallery-link{
+  font-size:18px;
+}
+h4{
+  font-size:17px;
+}
+  h6{
+  font-size:14px;
+  }
   
-  .title{
-  font-size:26px;
-  }
-  button{
-    font-size:18px;}
-.titlepara{
-  font-size:14px;
-  }
-.stem-header{
-  font-size:18px;
-}
-.rating{
-  font-size:14px;
-}
-.offer-tittle{
-  font-size:26px;
-}
-.suboffer-title{
-font-size:18px;
-  }
-.offer-para{
-  font-size:14px;
-}
-.gallery-btn {
-  font-size:18px;
-}
-.offer-time{
-  font-size:18px;
-}
-.subheader-review{
-font-size:14px;
-
-}
-  .header-review{
-font-size:18px;
-  }
-input{font-size:16px;
-}
-label{
-font-size:20px;
-  }
-
-textarea{
-font-size:16px;
-}
-.social{
-width: 90%;
-margin:auto;
-  }
-.social-icon{
-width: 89%;
-  margin:auto;
-  display: flex;
-
-  flex-direction:column;
-  
-}
-  .icon{
-font-size:25px;
-
-  }
-  .contact {
-  font-size:18px;
-  }
-.mission-text, .mission-subtitle{
-font-size:14px;
-  }
-.values-title{
-font-size:20px;
-  }
-
-.values-description{
-font-size:14px; 
-}
-  social-icon i span{
-  font-size:16px;
-  }
-.joinus{
-font-size:23px;
-  }
-.cta-text{
-font-size:14px;
-
-}
-
   
 }
