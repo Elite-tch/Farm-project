@@ -35,8 +35,8 @@ h4{
 .nav-content {
   display: flex;
   justify-content: space-between;
-  align-items: ;
-  margin:;
+  
+  margin:0;
 }
 
 .nav-brand .navbar-brand {
@@ -117,7 +117,7 @@ button{
   .title{
     font-weight:bold;
   
-  text-transform :capitalize
+  text-transform :capitalize;
   }
 
 .slide{
@@ -136,7 +136,7 @@ background-color:lightgray;
 
 .img-title{
 padding-left:15px;
-  padding-top:10px
+  padding-top:10px;
   }
 .slide-button{
   display:flex;
