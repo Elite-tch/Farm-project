@@ -31,35 +31,40 @@ h4{
   color: #fff;
   width: 100%;
 }
-
 .nav-content {
   display: flex;
   justify-content: space-between;
-  
-  margin:0;
+  align-items: center; 
+  margin: 0;
 }
 
-.nav-brand .navbar-brand {
-  font-size: 40px;
-  font-weight: bold;
-  color: #fff;
-}
- span {
-  color: #FFA500;
+.nav-brand {
+  flex: 1; 
 }
 
 .navbar-menu {
   display: flex;
-  padding-top: 26px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-link {
   text-decoration: none;
-  padding: 0 4px;
+  padding: 0 10px;
   color: #fff;
   font-size: 24px;
-  
 }
+
+
+
+ span {
+  color: #FFA500;
+}
+
+
+
+
 
 .navbar-link:hover,
 .navbar-link:active, .navbar-link:focus {
