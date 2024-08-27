@@ -7,7 +7,7 @@ function Gallery(){
  
    <GalleryComponent
      img1 =" coco.jpg"
-     img2 =" cocohead.jpg"
+     img2 =" landingpage/cocohead.jpg"
      img3 ="img.jpg "
      img4 =" img1.jpg"
      img5 ="img2.jpg "
