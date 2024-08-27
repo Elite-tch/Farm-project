@@ -80,10 +80,10 @@ Get 10% Off Your First Purchase!
 </h1>
   <h4 className="suboffer-title">Exclusive Limited-Time Discount on All Fresh Fruits</h4>
             <p className="offer-para">Enjoy a 10% discount on your first order of fresh farm products, including coconuts, watermelons, and more. This special offer is available for a limited time only. Don't miss out—shop now and save on quality produce straight from the farm! </p>
-            <h3 className="offer-timer">
+            <h3 className="offer-timer pt-2">
                 {hours} hours : {minutes} mins : {seconds} secs
             </h3>
-<button className="offer-button">
+<button className="offer-button mt-3">
 Claim Your Discount
   </button>
             
