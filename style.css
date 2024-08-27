@@ -88,7 +88,7 @@ font-weight: 300;
   }
 
 .hero-button{
-  margin-top:20%;
+  margin-top:10%;
   }
 
 button{
@@ -290,14 +290,14 @@ background-color: #FFA500;
 
 
   }
-.review-content{
+.review-content, .mission-values .row{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 20px;
 }
 
-.review-item {
+.review-item, .content {
   flex: 1 1 calc(33.333% - 20px);
   margin:0px 8px 14px 8px;
   text-align: center;
@@ -438,7 +438,7 @@ font-size:25px;
 }
 
   
-  .gallery-item {
+  .gallery-item, .mission-values .row{
     flex: 1 1 calc(50% - 20px); 
   }
 
