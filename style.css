@@ -41,7 +41,8 @@ h4{
 }
 
 .nav-brand .navbar-brand {
-  flex: 1; 
+  flex: 1 1 calc(50% - 20px);
+  margin:0px 8px 14px 8px;
   font-size:50px;
   font-weight:bold;
   color:#fff;
