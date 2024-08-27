@@ -43,6 +43,8 @@ h4{
 .nav-brand .navbar-brand {
   flex: 1; 
   font-size:50px;
+  font-weight:bold;
+  color:#fff;
 }
 
 .navbar-menu {
@@ -50,12 +52,12 @@ h4{
   list-style: none;
   margin: 0;
   padding: 0;
-width:60%;
+
 }
 
 .navbar-link {
   text-decoration: none;
-  padding: 10px 0px;
+  padding: 0px 10px 0px 0px;
   color: #fff;
   font-size: 24px;
 }
