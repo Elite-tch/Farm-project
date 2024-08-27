@@ -29,7 +29,7 @@ const handleWhatsAppClick = (message) => {
           breakpoints={{
             640: {
                 width:640,
-              slidesPerView: 1,
+              slidesPerView: 2,
               spaceBetween: 20,
             },
             1024: {
