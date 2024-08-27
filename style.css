@@ -388,7 +388,7 @@ margin:auto;
 width: 89%;
   margin:auto;
   display: flex;
-
+align-items:center;
   flex-direction:column;
   
 }
@@ -450,11 +450,11 @@ font-size:25px;
 }
 
   
-  .gallery-item, .mission-values .row{
+  .gallery-item, {
     flex: 1 1 calc(50% - 20px); 
   }
 
-  .review-item, .product-item {
+  .review-item, .product-item, .content {
     flex: 1 1 calc(100% ); 
   }
   .navbar-brand{
@@ -483,4 +483,54 @@ h4{
   button{
     font-size:15px;
   }
+  
+input{
+padding:4px 8px;
+font-size:15px;
+outline:none;
+
+
+}
+label{
+font-size:18px;
+  padding-right: 4px;
+  
+
+  }
+
+textarea{
+font-size:15px;
+  outline:none;
+  padding:4px 8px;
+  margin-bottom:15px;
+
+}
+  .icon{
+font-size:28px;
+
+    }
+.social-icon i span{
+  font-size:24px;
+padding-left:10px;
+  color: #000;
+  
+
+  }
+.mission{
+padding:30% 0px 10% 0px;
+  background-color:lightgray;
+
+  }
+.mission-text, .mission-subtitle{
+font-size:14px;
+  }
+.values-title{
+font-size:17px;
+  }
+
+.values-description{
+font-size:14px;
+  
+}
+  
 }
