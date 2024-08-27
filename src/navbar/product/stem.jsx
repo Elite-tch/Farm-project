@@ -26,17 +26,11 @@ const handleWhatsAppClick = (message) => {
           }}
           effect="fade"
           spaceBetween={50}
-          breakpoints={{
-            640: {
-                width:640,
-              slidesPerView: 2,
-              spaceBetween: 20,
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 50,
-            },
-          }}
+          
+              slidesPerView={2}
+              
+            
+          
         >
           <SwiperSlide key="1">
             <div className="card shadow-lg">
