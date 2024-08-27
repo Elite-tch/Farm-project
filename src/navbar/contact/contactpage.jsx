@@ -76,7 +76,7 @@ function ContactUs(props) {
                     </div>
                 </form>
                 <div className="social pt-3">
-                    <h5>Follow us :</h5>
+                    <h5 className="text-center">Follow us :</h5>
                     <div className="social-icon">
                         <i className="bi bi-facebook icon "><span>Official Cecifarm</span></i>
                         <i className="bi bi-whatsapp icon "><span>+23491245677752</span></i>
