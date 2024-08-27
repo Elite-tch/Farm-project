@@ -472,13 +472,13 @@ h1{
 }
 
 h2, h3, .gallery-link{
-  font-size:18px;
+  font-size:24px;
 }
 h4{
   font-size:17px;
 }
   h6, h5{
-  font-size:14px;
+  font-size:17px;
   }
   button{
     font-size:15px;
@@ -510,7 +510,7 @@ font-size:28px;
 
     }
 .social-icon i span{
-  font-size:24px;
+  font-size:14px;
 padding-left:10px;
   color: #000;
   
@@ -532,5 +532,11 @@ font-size:17px;
 font-size:14px;
   
 }
+.joinus{
+font-size:18px;
+  }
+.cta-text{
+font-size:14px;
+
   
 }
