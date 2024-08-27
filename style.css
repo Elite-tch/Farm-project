@@ -35,8 +35,8 @@ h4{
 .nav-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin:auto;
+  align-items: ;
+  margin:;
 }
 
 .nav-brand .navbar-brand {
@@ -58,7 +58,7 @@ h4{
   padding: 0 4px;
   color: #fff;
   font-size: 24px;
-  text-align:right;
+  
 }
 
 .navbar-link:hover,
