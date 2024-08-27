@@ -39,7 +39,7 @@ h4{
   margin: 0;
 }
 
-.nav-brand {
+.nav-brand .navbar-brand {
   flex: 1; 
   width:50%;
 }
