@@ -9,10 +9,12 @@ import Review from './landingpage/review.jsx';
 
 
 
+
+
 let imageStyle = {
   width: '100%',
   height: '90vh',
-  backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("navbar/apple.jpg")',
+  backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("apple.jpg")',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
   color: 'white',
