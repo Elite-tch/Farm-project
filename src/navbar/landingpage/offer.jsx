@@ -78,7 +78,7 @@ function OfferSection() {
 <h1 className="offer-title">
 Get 10% Off Your First Purchase!
 </h1>
-  <h3 className="suboffer-title">Exclusive Limited-Time Discount on All Fresh Fruits</h3>
+  <h4 className="suboffer-title">Exclusive Limited-Time Discount on All Fresh Fruits</h4>
             <p className="offer-para">Enjoy a 10% discount on your first order of fresh farm products, including coconuts, watermelons, and more. This special offer is available for a limited time only. Don't miss out—shop now and save on quality produce straight from the farm! </p>
             <h3 className="offer-timer">
                 {hours} hours : {minutes} mins : {seconds} secs
