@@ -13,13 +13,13 @@ h1{
   font-size:50px;
 }
 
-h2{
+h2, h3{
   font-size:35px;
 }
 h4{
   font-size:28px;
 }
-  h6{
+  h6, h5{
   font-size:20px;
   }
 
@@ -459,13 +459,13 @@ h1{
   font-size:30px;
 }
 
-h2, .gallery-link{
+h2, h3, .gallery-link{
   font-size:18px;
 }
 h4{
   font-size:17px;
 }
-  h6{
+  h6, h5{
   font-size:14px;
   }
   button{
