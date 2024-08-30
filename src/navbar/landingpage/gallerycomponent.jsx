@@ -4,7 +4,7 @@ function GalleryComponent(props) {
   return (
     <div className="gallery">
       <div className="container-fluid">
-      <h1 className="gallery-title text-center">Welcome to Our Farm Gallery</h1>  
+      <h1 className="gallery-title text-center pt-4">Welcome to Our Farm Gallery</h1>  
         <p className="text-center gallery-para">Browse through our collection of farm-fresh products.</p>
         
         <div className="gallery-content">
